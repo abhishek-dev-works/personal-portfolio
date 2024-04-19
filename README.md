@@ -28,7 +28,9 @@ To view the portfolio website locally or contribute to the project, follow these
 
 
 Open in Browser:
-Open your web browser and navigate to http://localhost:3000 to view the portfolio website.
+Open your web browser and navigate to 
+https://personal-portfolio-mu-ashy.vercel.app/
+to view the portfolio website.
 
 Usage
 Feel free to explore the different sections of the website:
