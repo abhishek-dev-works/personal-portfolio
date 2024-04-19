@@ -5,7 +5,6 @@ const LeftPanel = () => {
   const ids = ["summary", "experience", "downloadButton"];
   const [selected, setSelected] = React.useState(0);
   const handleScroll = (index: number) => {
-    debugger
     const ele = document.getElementById(ids[index]);
     ele && ele.scrollIntoView({ behavior: "smooth" });
     setSelected(index);
