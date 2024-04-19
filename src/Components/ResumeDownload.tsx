@@ -10,7 +10,7 @@ const ResumeDownload = () => {
     <div className="download" id="downloadButton">
       <button className="downloadbtn" onClick={() => handleClick()}>Download Resume</button>
       <div className="about">
-        <h3 className="aboutHeading">About</h3>
+        <h3>About</h3>
         <p>
           Loosely crafted in Figma and brought to life in Visual Studio Code,
           this website is a testament to my love for design and development.
@@ -19,7 +19,7 @@ const ResumeDownload = () => {
           text is elegantly set in the Inter typeface, enhancing readability and
           visual harmony.
         </p>
-        <h3 className="aboutHeading">Let's build together</h3>
+        <h3>Let's build together</h3>
         <p>
           While this portfolio is a showcase of my skills, it's also an open
           invitation to collaborate on exciting projects. Whether you have a

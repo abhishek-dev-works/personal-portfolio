@@ -17,7 +17,7 @@ const LeftPanel = () => {
           key={`${item}-${ind}`}
           onClick={() => handleScroll(ind)}
         >
-          <span>______</span> {item}
+          <span/>______ {item}
         </p>
       ))}
     </div>
