@@ -4,6 +4,7 @@ import Header from "./Components/Header";
 import LeftPanel from "./Components/LeftPanel";
 import RightPanel from "./Components/RightPanel";
 import ConnectWithMe from "./Components/ConnectWithMe";
+import { Analytics } from "@vercel/analytics/react";
 
 function App() {
   const [mousePosition, setMousePosition] = useState<{ x: number; y: number }>({
@@ -32,6 +33,7 @@ function App() {
       <div className="right">
         <RightPanel />
       </div>
+      <Analytics/>
     </div>
   );
 }
