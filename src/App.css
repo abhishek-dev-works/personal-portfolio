@@ -229,6 +229,9 @@
   display: none;
 }
 
+.flex {
+  display: flex;
+}
 @media (max-width: 600px) {
 
   .header {

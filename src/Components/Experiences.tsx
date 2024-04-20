@@ -26,7 +26,11 @@ const Experiences = () => {
                 <div key={`${ele.designation}-${item.companyName}-${index}`} className="subExperience">
                   <h3 className="summaryHeading">{ele.designation}</h3>
                   <p className="experienceDuration">{ele.duration}</p>
-                  <article>{ele.description}</article>
+                  <article>
+                    <ul>
+                      {ele.description.map(desc => <li>{desc}</li>)}
+                    </ul>
+                  </article>
                   <div className="skillsWrapper">
                     {Array.isArray(ele.skills) &&
                       ele.skills.map((skill, rank) => {

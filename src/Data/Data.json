@@ -8,7 +8,11 @@
             {
                 "designation": "Consultant I",
                 "duration": "October 2023 - Present",
-                "description": "Conducted requirement analysis and led solution development for new projects.\nAddressed project gaps through strategic problem-solving and effective communication.\nFacilitated collaborative discussions to ensure team alignment and project success.",
+                "description": [
+                    "Conducted requirement analysis and led solution development for new projects.",
+                    "Addressed project gaps through strategic problem-solving and effective communication.",
+                    "Facilitated collaborative discussions to ensure team alignment and project success."
+                ],
                 "skills": [
                     "JavaScript",
                     " Typescript",
@@ -41,7 +45,11 @@
             {
                 "designation": "Associate Consultant",
                 "duration": "October 2023 - Present",
-                "description": "Collaborated cross-functionally to deliver high-quality software solutions using .NET, React.js, and Azure technologies.\nContributed significantly to full-stack development projects with a focus on front-end and back-end implementation.\nManaged project timelines and budgets, exceeding client expectations with deliverables.",
+                "description": [
+                    "Collaborated cross-functionally to deliver high-quality software solutions using .NET, React.js, and Azure technologies.",
+                    "Contributed significantly to full-stack development projects with a focus on front-end and back-end implementation.",
+                    "Managed project timelines and budgets, exceeding client expectations with deliverables."
+                ],
                 "skills": [
                     " Typescript",
                     " React Js",
