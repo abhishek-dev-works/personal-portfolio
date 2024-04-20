@@ -24,8 +24,10 @@ function App() {
     >
       <div className="left">
         <Header />
+        <div className="toggleHide">
         <LeftPanel />
         <ConnectWithMe />
+        </div>
       </div>
       <div className="right">
         <RightPanel />
