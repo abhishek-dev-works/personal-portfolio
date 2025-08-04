@@ -1,7 +1,7 @@
 import React from "react";
 
 const resLinkk =
-  "https://drive.google.com/uc?export=download&id=1nbLUbHiAPKo14IteIXKl4na4COMSiRyp";
+  "https://drive.google.com/uc?export=download&id=1gw3YNtCXc_BP0_0Q7g7AYxtt6b8fH7Rl";
 const ResumeDownload = () => {
   const handleClick = () => {
     window.location.href = resLinkk;
